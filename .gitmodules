@@ -1,9 +1,3 @@
-[submodule "spdlog"]
-	path = spdlog
-	url = https://github.com/gabime/spdlog
-[submodule "Lacerta/vendor/spdlog"]
-	path = Lacerta/vendor/spdlog
-	url = https://github.com/gabime/spdlog
 [submodule "Lacerta-Engine/vendor/spdlog"]
 	path = Lacerta-Engine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
