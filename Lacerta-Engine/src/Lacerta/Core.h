@@ -6,5 +6,5 @@
 #		define LCT_API __declspec(dllimport)
 	#endif // LCT_BUILD_DLL
 #else
-#	error Lacerta Engine only supports Windows platform at the moment.
+#	error Lacerta Engine only supports Windows
 #endif // !LCT_PLATFORM_WINDOWS

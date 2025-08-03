@@ -1,36 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Lacerta">
+      <UniqueIdentifier>{21DC86C7-8DBB-0563-96D3-903902326CC4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Lacerta\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Lacerta.h" />
     <ClInclude Include="src\Lacerta\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Lacerta</Filter>
     </ClInclude>
-    <ClInclude Include="src\Lacerta.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\Lacerta\Core.h">
+      <Filter>Lacerta</Filter>
     </ClInclude>
     <ClInclude Include="src\Lacerta\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>Lacerta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lacerta\Logger.h">
+      <Filter>Lacerta</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Lacerta\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Lacerta</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lacerta\Logger.cpp">
+      <Filter>Lacerta</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

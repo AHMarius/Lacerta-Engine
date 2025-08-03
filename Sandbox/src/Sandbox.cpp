@@ -12,7 +12,6 @@ public:
 	{
 
 	}
-
 };
 
 Lacerta::Application* Lacerta::CreateApplication()
